@@ -1,0 +1,36 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
+#include<time.h>
+
+int main(){
+	
+	srand(time(NULL));
+	int i;
+	int r= rand();
+	int char A[][]= "Patricia";"Rafael";"Andrés";"Arturo";"Mabel";"Santiago";"Omar";"Martin";"Sofia";"Jenny";
+	printf("Que nombre quieres?:\n");
+	
+	for (int j = 0; j < 2; j++) {
+        for (int k = 0; k < 3; k++) {
+            printf("%d ",A[j][k]);
+        }
+        printf("\n");
+    }
+	scanf("%d",&i);
+	
+	
+	//printf("r = %d size = %d\n",r, sizeof(array A));
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
